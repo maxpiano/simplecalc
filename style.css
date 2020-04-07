@@ -40,10 +40,12 @@ body {
   font-size: 6vh;
 }
 
-/* @media all and (orientation: portrait) { */
-/*   .clacwrapper { */
-/*   } */
-/* } */
+@media all and (orientation: portrait) {
+  body {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+}
 
 @media all and (orientation: landscape) {
   .calcwrapper {
@@ -109,6 +111,12 @@ body {
 
 .button:hover {
   filter: invert(1);
+}
+
+@media (hover: none) {
+  .button:hover {
+    filter: none;
+  }
 }
 
 .clicked {
