@@ -109,13 +109,14 @@ body {
   line-height: 0;
 }
 
-.button:hover {
-  filter: invert(1);
-}
+/* .button:hover { */
+/*   filter: invert(1); */
+/* } */
 
 @media (hover: none) {
   .button:hover {
-    filter: none;
+    /* filter: unset; */
+    filter: invert(1);
   }
 }
 

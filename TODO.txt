@@ -3,3 +3,5 @@
 - fix NaN when evaluating empty expression
 - remove hover-transition on touch (mobile)
 - lower height on mobile or increase padding top and bottom
+- make expression smaller when it overflows display
+- add a second display with live evaluation and error messages
