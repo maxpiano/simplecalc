@@ -1,0 +1,5 @@
+- make font on mobile nicer (specify font in header)
+- make brackets work
+- fix NaN when evaluating empty expression
+- remove hover-transition on touch (mobile)
+- lower height on mobile or increase padding top and bottom
