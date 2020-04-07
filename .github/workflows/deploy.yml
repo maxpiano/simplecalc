@@ -3,7 +3,7 @@ name: Deploy to Surge
 on:
   push:
     paths:
-    - 'dist/'
+    - 'dist/**'
 
 jobs:
   build:
