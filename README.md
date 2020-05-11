@@ -1,1 +1,1 @@
-simple responsive calculator
+Simple Calculator written in HTML, CSS and JS
